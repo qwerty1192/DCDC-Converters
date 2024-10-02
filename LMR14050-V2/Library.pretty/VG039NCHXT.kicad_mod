@@ -1,0 +1,39 @@
+(footprint "VG039NCHXT" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -3.81 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 17336261-51f3-4566-bcef-8784837f212e)
+  )
+  (fp_text value "VG039NCHXT" (at 0 3.81 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4ecb98e5-0149-47f0-8d7a-bdfbea5bc5e7)
+  )
+  (fp_text user "${REFERENCE}" (at 0 5.08 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b322d9dd-cc15-4378-80a5-8d33605698dc)
+  )
+  (fp_rect (start -1.8 -1.9) (end 1.8 2) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 2a20a07a-34ae-4a60-88e9-40a7209862f2))
+  (fp_circle (center 0 1.905) (end 0 1.905) (layer "F.SilkS") (width 0.12) (fill none) (tstamp a7f967bb-9bb3-4799-96c2-76057b64d89c))
+  (fp_rect (start -2 -2.5) (end 2 2.7) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp e1518141-9953-4434-a473-d5383d8fd2f0))
+  (fp_line (start -1.5 -1.8) (end -0.635 -1.8) (layer "F.Fab") (width 0.07) (tstamp 6a577003-fbf4-4b6d-84fa-4477f25d688f))
+  (fp_line (start 0.635 -1.8) (end 1.5 -1.8) (layer "F.Fab") (width 0.07) (tstamp c27eb14e-ea3e-4897-bd82-ebb8a607b357))
+  (fp_line (start 1.5 -1.8) (end 1.5 1.27) (layer "F.Fab") (width 0.07) (tstamp ceca7a84-980b-4392-909f-02f2dca0e068))
+  (fp_line (start -1.5 1.27) (end -1.5 -1.8) (layer "F.Fab") (width 0.07) (tstamp d2946188-25e0-4bc2-9181-ee7298a53802))
+  (fp_line (start -0.5 1.905) (end 0.5 1.905) (layer "F.Fab") (width 0.07) (tstamp e9b024a0-0275-4ba7-9a6e-2f19956cd3e6))
+  (fp_circle (center 0 0.254) (end 0.508 0.254) (layer "F.Fab") (width 0.07) (fill none) (tstamp ba9a29e9-30e7-42bc-8a2a-f52fe81fb06c))
+  (pad "1" smd roundrect (at 0 -1.45) (size 1.6 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp c89e78b2-16e3-4307-ab55-ea8e32a2bed9))
+  (pad "2" smd roundrect (at -1 1.8) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp efdc6cfb-348f-4e2e-8850-ef9c1d43b21d))
+  (pad "3" smd roundrect (at 1 1.8) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e41f4724-a916-4c8a-86d0-f4542ba4c758))
+  (group "" (id fcb5e95d-c9ec-4eee-a2ee-50e0466bf56f)
+    (members
+      6a577003-fbf4-4b6d-84fa-4477f25d688f
+      ba9a29e9-30e7-42bc-8a2a-f52fe81fb06c
+      c27eb14e-ea3e-4897-bd82-ebb8a607b357
+      ceca7a84-980b-4392-909f-02f2dca0e068
+      d2946188-25e0-4bc2-9181-ee7298a53802
+      e9b024a0-0275-4ba7-9a6e-2f19956cd3e6
+    )
+  )
+)
